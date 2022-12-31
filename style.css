@@ -1,0 +1,346 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ALL */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'sans serif ms';
+    overflow-x: hidden;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace ;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+    font-size: 15px;
+}
+
+/* HEADING GAISS */
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#ff1bb3;
+    z-index: 1;
+    border-bottom: 1px  #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin: auto;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #000000;
+}
+
+.kolom img {
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    text-align: left;
+    font-weight: 800vh;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(17, 17, 70);
+    width: 100%;
+    line-height: 50px;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    font-style: unset;
+    font-weight: 800;
+    font-size: 3.2vh;
+    margin-bottom: 10px;
+    color: #333333;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Times New Roman';
+    font-style: unset;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #ff1bb3;
+    width: 100%;
+    text-decoration: underline;
+}
+
+h6 {
+    font-family: 'Courier New', Courier, monospace ;
+    text-align: center;
+    font-weight: 800vh;
+    font-size: 18px;
+    color: #004e9c;
+    width: 100%;
+    line-height: 23px;
+}
+
+a.tbl-ungu {
+    color: #ff1bb3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+a.tbl-ungu:hover {
+    color: #7600d6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a.tbl-hitam {
+    color: #000000;
+    font-size: large;
+}
+
+a.tbl-putih {
+    color: #000000;
+    font-size: medium;
+}
+
+h4 {
+    font-family: 'comic sans ms';
+    text-align: center;
+    font-weight: 800vh;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(17, 17, 70);
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+    color: #000000;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.tutor {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutor img {
+    width: 40%;
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+.kartu {
+    width: 20%;
+    margin: 5%, auto;
+}
+
+.kartu img {
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 50%;
+}
+
+.kartu  {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#Contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+    color: #000000;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+@media screen and  (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+
+nav.menu {
+    width: 100%;
+    margin: 0;
+}
+
+nav.menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+}
+
+nav.menu ul li {
+    display: inline-block;
+    float: none;
+}
+section {
+    display: block;
+}
+section img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.kartu {
+    width: 50%;
+}
+.kartu-partner {
+    width: 50%;
+}
+}
+
+/* GARIS TIGA */
+.tombol-menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.tombol-menu .garis {
+    height: 2px;
+    width: 30px;
+    bottom: center;
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;
+        border-bottom:1px solid #333333;
+    }
+}
+
